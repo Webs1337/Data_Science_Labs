@@ -206,7 +206,41 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Data files
-*.csv
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cache and IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Creation and Python flows
+bin/
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual enviroments
+venv/
+env/
+.env/
+ENV/
+
+# Data files (Large or dynamic)
 *.txt
+*.csv
+*.json
+*.log
+*.sql
+*.sqlite
 vhi_data/
