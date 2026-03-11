@@ -1,0 +1,7 @@
+# Специфічні дані Лабораторної №2
+vhi_data/
+household_power_consumption.txt
+individual+household+electric+power+consumption.zip
+*.zip
+# Технічні файли Jupyter
+.ipynb_checkpoints/
